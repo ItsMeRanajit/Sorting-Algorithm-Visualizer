@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&family=Pixelify+Sans:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Single+Day&family=Sixtyfour&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Workbench&display=swap" rel="stylesheet">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="all">
+      <!-- upper part -->
+       <div id="upper">
+
+         <h1><span>Visualizer <img src="files/github.svg" alt="GitHub"></span>
+          <div></div>
+         </h1>
+
+         <div>
+          <select name="" id="algorithm">
+            <option value="bubble" selected>Bubble Sort</option>
+            <option value="select">Selection Sort</option>
+            <option value="insert">Insertion Sort</option>
+            <option value="merge">Merge Sort</option>
+            <option value="quick">Quick Sort</option>
+            <option value="heap">Heap Sort</option>
+          </select>
+        </div>
+
+       </div>
+
+       <!-- middle part -->
+       <div id="middle">
+
+        <div class="container"></div>
+
+        <div id="about">
+        </div>
+
+       </div>
+
+       <!-- lower part -->
+       <!-- <div id="lower"> -->
+
+        <div id="speed-size">
+          <div><span >Size : </span><span id="showSize">20</span><div><input class="range" style="margin-top: 10px;" type="range" id="size" min="10" max="60" step="1" value="20"></div></div>
+
+          <div id="speed">Speed :   <button id="low"> < </button><span id="speed-level"></span><button id="high"> > </button></div>
+        </div>
+
+        <div id="sort-play-new">
+          <button class="btn" id="sort"><img src="files/sort.svg" alt="Sort"><span class="tooltip">Sort</span></button>
+          <button class="btn" id="pause"><img src="files/play.png" alt="Pause"><span class="tooltip">Play</span></button>
+          <button class="btn" id="newarr" onclick="restart()"><img src="files/restart.svg" alt="New Array"><span class="tooltip">New Array</span></button>
+        </div>
+
+        <div id="extra-info">
+          <div class="info">
+            <div class="info-img" style="background-color: #f72585;"></div>
+            <div class="info-msg">Cuurently involved in swap process</div>
+          </div>
+          <div class="info">
+            <div class="info-img" style="background-color: #4264fa;"></div>
+            <div class="info-msg">Not involved in swap process</div>
+          </div>
+          <div class="info">
+            <div class="info-img" style="background-color: #7209b7;"></div>
+            <div class="info-msg">Value sorted</div>
+          </div>
+          <div class="info">
+            <div class="info-img" style="background-color: #4cc9f0;"></div>
+            <div class="info-msg">Array is sorted  / Pivot</div>
+          </div>
+        </div>
+       <!-- </div> -->
+
+
+      
+    </div>
+    <!-- <audio src="sounds/pop.mp3" id="shift"></audio> -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/Style.js"></script>
+    <script src="scripts/info.js"></script>
+    <!-- <script src="scripts/app.js"></script> -->
+    <script src="scripts/bubbleSort.js"></script>
+    <script src="scripts/selectionSort.js"></script>
+    <script src="scripts/insertionSort.js"></script>
+    <script src="scripts/mergeSort.js"></script>
+    <script src="scripts/quickSort.js"></script>
+    <script src="scripts/heapSort.js"></script>
+  </body>
+</html>
