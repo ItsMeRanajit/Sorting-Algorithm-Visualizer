@@ -1,4 +1,4 @@
-<h1><a herf ="https://itsmeranajit.github.io/Sorting-Algorithm-Visualizer/"> Site </a></h1>
+<h1>Site -</h1> <span> https://itsmeranajit.github.io/Sorting-Algorithm-Visualizer/</span>
 
 <h1>Sorting Algorithm Visualizer</h1>
 
