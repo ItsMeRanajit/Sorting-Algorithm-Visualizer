@@ -1,3 +1,5 @@
+<h1>a herf ="https://itsmeranajit.github.io/Sorting-Algorithm-Visualizer/"> Site </a></h1>
+
 <h1>Sorting Algorithm Visualizer</h1>
 
 <p>Welcome to the Sorting Algorithm Visualizer! This project provides an interactive way to explore and understand various sorting algorithms. Built with HTML, CSS, and JavaScript, the visualizer allows users to see how different algorithms work through engaging animations. You can adjust parameters such as array size and sorting speed to customize your experience and gain deeper insights into the efficiency and mechanics of each algorithm.</p>
